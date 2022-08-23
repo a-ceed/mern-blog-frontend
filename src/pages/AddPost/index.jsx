@@ -140,7 +140,7 @@ export const AddPost = () => {
       {imageUrl && (
         <img
           className={styles.image}
-          src={`http://localhost:4444${imageUrl}`}
+          src={`http://194.226.49.175:4444${imageUrl}`}
           alt="Uploaded"
         />
       )}
